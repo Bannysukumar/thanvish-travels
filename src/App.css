@@ -1,0 +1,10 @@
+/* Import global styles from original style.css */
+@import './styles.css';
+@import './themes.css';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
