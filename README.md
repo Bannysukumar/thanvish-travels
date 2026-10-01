@@ -133,3 +133,12 @@ The original HTML/CSS/JavaScript files are preserved in the root directory for r
 
 Copyright © 2024 Thanvish Travels. All rights reserved.
 
+<!-- readme-seo: bannysukumar -->
+
+## Open source
+
+This repository is open source and maintained by [Banny Sukumar](https://github.com/Bannysukumar). Thanvish Travels is published so other developers can study the code and contribute.
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to help.
