@@ -2,143 +2,88 @@
 
 This is the React version of the Thanvish Travels website, converted from vanilla HTML/CSS/JavaScript to a modern React application.
 
+[![License](https://img.shields.io/github/license/Bannysukumar/thanvish-travels)](https://github.com/Bannysukumar/thanvish-travels/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/thanvish-travels)](https://github.com/Bannysukumar/thanvish-travels/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/thanvish-travels)](https://github.com/Bannysukumar/thanvish-travels/commits/main)
+
+## Overview
+
+This is the React version of the Thanvish Travels website, converted from vanilla HTML/CSS/JavaScript to a modern React application.
+
+
+What is actually in the repository: `src/`. GitHub reports the primary language as CSS.
+
 ## Features
 
-- **React 18** with modern hooks and context API
-- **React Router** for client-side routing
-- **Firebase Realtime Database** integration
-- **Responsive design** with modern UI
-- **Admin dashboard** for managing packages and bookings
-- **Real-time updates** for packages
 
-## Getting Started
+- React 18 with modern hooks and context API
+- React Router for client-side routing
+- Firebase Realtime Database integration
+- Responsive design with modern UI
+- Admin dashboard for managing packages and bookings
+- Real-time updates for packages
+- All Services
+- Cab Services
+- Contact
+- Dashboard
+- Food Delivery
+- Home
 
-### Prerequisites
+## Tech Stack
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory. This creates an optimized production build with:
-- Code minification and tree-shaking
-- Asset optimization
-- Code splitting for better performance
-- Console.log removal in production
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
-This serves the production build locally on `http://localhost:4173` for testing.
-
-### Deployment
-
-See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions for various platforms:
-- Vercel (Recommended)
-- Netlify
-- Firebase Hosting
-- GitHub Pages
-- Traditional Web Hosting
+| Technology | Where it shows up |
+|---|---|
+| React | User interface |
+| Vite | Frontend build tool |
 
 ## Project Structure
 
-```
-src/
-├── components/          # Reusable React components
-│   ├── Navbar.jsx
-│   ├── Footer.jsx
-│   ├── BookingModal.jsx
-│   └── SuccessMessage.jsx
-├── pages/              # Page components
-│   ├── Home.jsx
-│   ├── Contact.jsx
-│   ├── Login.jsx
-│   ├── Dashboard.jsx
-│   ├── TravelPackages.jsx
-│   ├── CabServices.jsx
-│   ├── FoodDelivery.jsx
-│   └── AllServices.jsx
-├── context/            # React Context providers
-│   └── PackagesContext.jsx
-├── utils/              # Utility functions
-│   └── firebase.js
-├── App.jsx             # Main App component with routing
-├── main.jsx            # Entry point
-└── index.css           # Global styles
+```text
+thanvish-travels/
+├── src/
+├── .htaccess
+├── DEPLOYMENT.md
+├── PRODUCTION_CHECKLIST.md
+├── _redirects
+├── admin.css
+├── admin.js
+├── index.html
+├── netlify.toml
+├── package-lock.json
+├── package.json
+├── script.js
+├── style.css
 ```
 
-## Firebase Configuration
+## Getting Started
 
-The app uses Firebase Realtime Database. The Firebase URL is configured in `src/utils/firebase.js`:
-
-```javascript
-export const FIREBASE_URL = 'https://travaling-76f20-default-rtdb.firebaseio.com';
+```bash
+git clone https://github.com/Bannysukumar/thanvish-travels.git
+cd thanvish-travels
+npm install
+npm run dev
 ```
 
-Make sure your Firebase database is set up with the following structure:
-- `/packages` - Travel packages data
-- `/bookings` - Booking requests
+Scripts defined in package.json:
 
-## Admin Access
+- `npm run dev` — `vite`
+- `npm run build` — `vite build`
 
-- **Login URL**: `/login`
-- **Default Password**: `admin123`
-- **Dashboard URL**: `/dashboard`
+## Deployment
 
-## Routes
+- vercel.json is in the repository root.
+- netlify.toml is in the repository root.
 
-- `/` - Home page
-- `/contact` - Contact page
-- `/travel-packages` - Travel packages listing
-- `/cab-services` - Cab services listing
-- `/food-delivery` - Food delivery options
-- `/all-services` - All services with filters
-- `/login` - Admin login
-- `/dashboard` - Admin dashboard
+## Contributing
 
-## Technologies Used
-
-- React 18
-- React Router DOM 6
-- Vite (build tool)
-- Firebase Realtime Database
-- CSS3 (original styles preserved)
-
-## Development
-
-The original HTML/CSS/JavaScript files are preserved in the root directory for reference. The React conversion maintains the same functionality and styling.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-Copyright © 2024 Thanvish Travels. All rights reserved.
+Licensed under MIT. See [LICENSE](LICENSE).
 
-<!-- readme-seo: bannysukumar -->
+## Author
 
-## Open source
+[Banny Sukumar](https://github.com/Bannysukumar)
 
-This repository is open source and maintained by [Banny Sukumar](https://github.com/Bannysukumar). Thanvish Travels is published so other developers can study the code and contribute.
-
-## License
-
-Released under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to help.
+- GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
+- Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
+- LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
